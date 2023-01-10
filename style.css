@@ -3,6 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+a {
+	color: red;
+}
 header {
 	height: 200px;
 	background-color: lightblue;
