@@ -10,10 +10,117 @@ ul {
 	list-style: none;
 }
 
+body {
+	padding-top: 100px;
+}
 /* header styles */
 header {
-	height: 250px;
+	padding: 10px;
 	background-color: lightblue;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.card {
+	width: 50px;
+	height: 50px;
+	background-color: aqua;
+	color: black;
+	font-weight: 900;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 50%;
+}
+p {
+	font-size: 20px;
+}
+.fixed {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+.sticky {
+	position: sticky;
+	top: 30px;
+	/* left: 40%; */
+	z-index: 5;
 }
 
 /* section styles */
+img {
+	width: 100%;
+}
+.container {
+	max-width: 1300px;
+	width: 100%;
+	margin: auto;
+}
+/* .main-section {
+	max-width: 1300px;
+	width: 100%;
+	margin: auto;
+} */
+
+button {
+	display: block;
+	width: 200px;
+	background-color: darkcyan;
+	margin: auto;
+}
+
+.slider-section img {
+	height: 300px;
+	object-fit: cover;
+}
+.slider-section button {
+	width: auto;
+}
+
+.slider-section {
+	position: relative;
+	background-color: palevioletred;
+}
+.slider-section h2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	background-color: red;
+}
+.next,
+.prev {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.prev {
+	right: unset;
+	left: 10px;
+}
+
+header li:nth-child(5n) {
+	background-color: red;
+}
+
+header li:first-child {
+	background-color: black;
+}
+
+.map a {
+	color: black;
+}
+
+iframe {
+	border-radius: 10px;
+	display: block;
+	margin: auto;
+	max-width: 600px;
+	width: 100%;
+}
