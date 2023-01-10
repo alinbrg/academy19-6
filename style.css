@@ -4,9 +4,9 @@
 	box-sizing: border-box;
 }
 a {
-	color: red;
+	color: white;
 }
 header {
-	height: 200px;
+	height: 250px;
 	background-color: lightblue;
 }
